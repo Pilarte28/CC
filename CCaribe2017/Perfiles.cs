@@ -110,12 +110,12 @@ namespace CCaribe2017
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Operaciones oper = new Operaciones();
-           // DataSet ds = oper.ConsultaConResultado(" select * from EMPLEADO WHERE idemp='" + textBox2.Text + "' ");
-            //ds.WriteXml("c:\\sistema\\db1.xml");
+            Operaciones oper = new Operaciones();
+            DataSet ds = oper.ConsultaConResultado(" select * from EMPLEADO WHERE idemp='" + textBox2.Text + "' ");
+            ds.WriteXml("c:\\sistema\\db1.xml");
 
-            //frmVisor f = new frmVisor("Empleado.rpt");
-            //f.Show();
+            Form2 f = new Form2("Perfil.rpt");
+            f.Show();
 
         }
     }
