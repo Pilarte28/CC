@@ -20,13 +20,18 @@ namespace CCaribe2017
             ReportDocument cryRpt = new ReportDocument();
             cryRpt.Load(nombre_reporte);
 
-            crystalReportViewer1.ReportSource = cryRpt;
-            crystalReportViewer1.Refresh();
+            crystalReportViewer2.ReportSource = cryRpt;
+            crystalReportViewer2.Refresh();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
             //lll
+        }
+
+        private void crystalReportViewer2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

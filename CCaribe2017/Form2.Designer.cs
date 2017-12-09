@@ -53,6 +53,7 @@
             this.crystalReportViewer2.Name = "crystalReportViewer2";
             this.crystalReportViewer2.Size = new System.Drawing.Size(701, 591);
             this.crystalReportViewer2.TabIndex = 1;
+            this.crystalReportViewer2.Load += new System.EventHandler(this.crystalReportViewer2_Load);
             // 
             // Form2
             // 
