@@ -22,7 +22,9 @@ namespace CCaribe2017
                 buscar(idemp);
             }
         }
-        //
+        /// <summary>
+        /// /
+        /// </summary>
 
         private void llena_departamento()
         {
