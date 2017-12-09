@@ -26,7 +26,7 @@ namespace CCaribe2017
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            //lll
         }
     }
 }
